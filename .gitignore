@@ -1,0 +1,93 @@
+# Visual Studio IDE and editor
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+*.userprefs
+.idea/
+*.sln.iml
+
+# Build outputs and intermediate
+/bin/
+/obj/
+/out/
+/intermediate/
+/Debug/
+/Release/
+/x64/
+/x86/
+
+# C# project caches and build metadata
+obj/**/*.cache
+obj/**/*.CacheFile
+obj/**/*.CoreCompileInputs.cache
+obj/**/*BuildWithSkipAnalyzers
+obj/**/*GeneratedMSBuildEditorConfig.editorconfig
+obj/**/*.AssemblyInfoInputs.cache
+obj/**/*.genruntimeconfig.cache
+obj/**/*.assets.cache
+obj/**/*.Up2Date
+obj/**/*.AssemblyReference.cache
+bin/**/*.json
+bin/**/*.config
+bin/**/*.runtimeconfig.*
+
+# NuGet
+.nuget/
+packages/
+*.nuspec
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Resharper / CodeRush
+_ReSharper*/
+*.DotSettings.user
+
+# MSBuild
+*.exp
+*.lib
+*.iobj
+*.ipdb
+*.exp
+
+# IDE cache
+.vs/
+SAL2/v17/
+.idea/.
+
+# Compiled objects
+*.pdb
+*.ilk
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+
+# Backup and temp files
+*.bak
+*.backup
+*.tmp
+*~.swp
+
+# Testing
+TestResults/
+.coverage
+coverage/
+
+# OS specific
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Plan files
+*_commit_plan.txt
+Aselsan-ATHKS_commit_plan.txt
